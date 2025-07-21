@@ -1,0 +1,26 @@
+# macOS files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Arduino IDE / ESP8266 specific (common exclusions)
+*.ino.hex
+*.bin
+*.elf
+*.map
+*.sketch.bin
+.vscode/        # If you use VSCode, this folder is for settings specific to your environment
+*.tmp
+build/          # Common build output directory
+.arduino/       # Arduino CLI build artifacts
+
+# For PlatformIO (if you ever switch)
+.pio/
+.vscode/
+
+# Other potential temporary/build files
+*.log
+*~
+*.bak
