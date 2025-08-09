@@ -42,7 +42,10 @@ This project leverages the ESP8266 microcontroller to function as a Wi-Fi networ
     ```
     esp8266_deauther_ifingerprint/
     ├── cli/
-    │   └── esp_cli.py
+    │   ├── esp_cli.py
+    │   └── include
+    |       ├── esp_protocol.py
+    |       └── fingerprint_data.py
     └── main/
         ├── main.ino (or ESP8266_Jammer.ino)
         ├── include/
