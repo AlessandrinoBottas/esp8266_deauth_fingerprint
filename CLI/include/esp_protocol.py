@@ -1,7 +1,7 @@
 from enum import Enum, auto
 import serial #Documentation: https://pyserial.readthedocs.io/en/latest/index.html 
 import time
-from fingerprint_data import *
+from include.fingerprint_data import *
 
 # --- Serial Communication ---
 DEFAULT_SERIAL_PORT = '/dev/cu.usbserial-110'
